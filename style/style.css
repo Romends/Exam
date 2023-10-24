@@ -1,5 +1,19 @@
 /* Navbar container */
+
+body{
+  background-color: #333;
+}
+
+.full-nav{
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  display: flex; /* Use flexbox to align elements horizontally */
+  justify-content: space-between; /* Distribute space between elements */
+  align-items: center; /* Vertically center the elements */
+  padding: 0 20px;
+}
 .navbar {
+    display: inline;
     overflow: hidden;
     background-color: #333;
     font-family: Arial;
