@@ -49,7 +49,7 @@ body{
   
   /* Add a red background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #F45B69;
   }
   
   /* Dropdown content (hidden by default) */
@@ -81,3 +81,95 @@ body{
   .dropdown:hover .dropdown-content {
     display: block;
   }
+    /* Style for the container box */
+    .big-container {
+      background-color: #F45B69;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      margin: 2%;
+  }
+
+  /* Style for the title */
+  .main-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+  }
+
+  /* Style for the paragraph */
+  .main-paragraph {
+      margin-top: 10px;
+      color: white;
+      font-weight: bold;
+  }
+
+  /* Style for the image */
+  .front-image {
+      margin-left: 20px;
+      max-width: 600px;
+  }
+  .medium-container {
+    background-color: #E4FDE1;
+    padding: 20px;
+    display: block;
+    margin: 2%;
+    
+}
+
+/* Style for the title */
+.campus-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+}
+
+/* Style for the paragraph */
+.campus-paragraph {
+    margin-top: 10px;
+    color: gray;
+    font-weight: bold;
+}
+
+/* Style for the image */
+.map-image {
+    margin-left: 20px;
+    max-width: 500px;
+}
+.small-container {
+  background-color: #7598BD;
+  padding: 20px;
+  display: block;
+  margin: 2%;
+}
+
+/* Style for the title */
+.buildings {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+/* Style for the paragraph */
+.building-list {
+  margin-top: 10px;
+  color: black;
+  font-weight: bold;
+  
+}
+
+/* Style for the image */
+.pilestredet-image {
+  margin-left: 20px;
+  max-width: 400px;
+}
+.medium-small-grid{
+  display: flex;
+}
+footer {
+  background-color: #fff;
+  color: black;
+  padding: 5px;
+  text-align: left;
+  margin-top: 5%;
+}
