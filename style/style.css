@@ -88,10 +88,12 @@ body{
       display: flex;
       align-items: center;
       margin: 2%;
+      flex: 1;
   }
 
   /* Style for the title */
   .main-title {
+      font-family: Inter;
       font-size: 24px;
       font-weight: bold;
       color: white;
@@ -99,7 +101,10 @@ body{
 
   /* Style for the paragraph */
   .main-paragraph {
+      font-family: Inter;
       margin-top: 10px;
+      margin-bottom: 10%;
+      font-size: 22px;
       color: white;
       font-weight: bold;
   }
@@ -110,42 +115,48 @@ body{
       max-width: 600px;
   }
   .medium-container {
-    background-color: #E4FDE1;
-    padding: 20px;
+    background-color: #7598BD;;
+    padding: 2%;
     display: block;
     margin: 2%;
+    flex: 2;
     
 }
 
 /* Style for the title */
 .campus-title {
+    font-family: Inter;
     font-size: 20px;
     font-weight: bold;
-    color: gray;
+    color: rgb(73, 72, 72);
 }
 
 /* Style for the paragraph */
 .campus-paragraph {
+    font-family: Inter;
     margin-top: 10px;
-    color: gray;
+    color: rgb(73, 72, 72);
     font-weight: bold;
 }
 
 /* Style for the image */
 .map-image {
     margin-left: 20px;
-    max-width: 500px;
+    max-width: 600px;
+    padding: 2%;
 }
 .small-container {
-  background-color: #7598BD;
-  padding: 20px;
+  background-color: #DCFDD9;
+  padding: 2%;
   display: block;
   margin: 2%;
+  flex: 1;
 }
 
 /* Style for the title */
 .buildings {
   font-size: 20px;
+  font-family: Inter;
   font-weight: bold;
   color: black;
 }
@@ -153,6 +164,7 @@ body{
 /* Style for the paragraph */
 .building-list {
   margin-top: 10px;
+  font-family: Inter;
   color: black;
   font-weight: bold;
   
@@ -161,7 +173,7 @@ body{
 /* Style for the image */
 .pilestredet-image {
   margin-left: 20px;
-  max-width: 400px;
+  max-width: 600px;
 }
 .medium-small-grid{
   display: flex;
@@ -220,3 +232,97 @@ body{
   margin:0% 3%;
   }
   }
+/* Style for the main container */
+.main-container {
+  margin: 2%;
+  background-color: #F45B69; /* Choose the background color you prefer */
+  color: white; /* Set the text color to white */
+  padding: 20px;
+  font-family: Inter;
+  font-size: 16px;
+}
+
+/* Style for the main container headings */
+.main-container h1, .main-container h2, .main-container h3 {
+  color: #333; 
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+/* Style for the main container paragraphs */
+.main-container p {
+  color: white; /* Set the text color of paragraphs to white */
+  line-height: 1.5; /* Adjust line height as needed */
+}
+
+/* Style for the content container */
+.content-container {
+  display: flex;
+}
+
+/* Style for library container */
+.library {
+  flex: 1;
+  background-color: #7598BD; /* Library background color */
+  padding: 20px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+/* Style for canteen container */
+.canteen {
+  flex: 1;
+  background-color: #2fafda; /* Canteen background color */
+  padding: 20px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+/* Style for auditorium container */
+.auditorium {
+  flex: 1;
+  background-color: #914658; /* Auditorium background color */
+  padding: 20px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+/* Style for headings and paragraphs within containers */
+.library h2, .canteen h2, .auditorium h2,
+.library p, .canteen p, .auditorium p {
+  color: white;
+}
+/* Style for the main container on the new page */
+.main-container-new {
+  margin: 2%;
+  background-color: #A1B3F5;
+  color: #333;
+  padding: 20px;
+  font-family: 'Play', sans-serif;
+  font-size: 18px;
+}
+
+/* Style for main container headings on the new page */
+.main-container-new h1, .main-container-new h2 {
+  color: #F45B69;
+  font-weight: bold;
+}
+
+/* Style for main container paragraphs on the new page */
+.main-container-new p {
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Style for links on the new page */
+.main-container-new a {
+  color: #7598BD;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.main-container-new a:hover {
+  color: #F45B69;
+}
